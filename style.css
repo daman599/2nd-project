@@ -26,3 +26,10 @@ button{
     float:right;
     position: relative;
 }
+.points{
+    font-weight: bold ;
+}
+.points:hover{
+   font-size: larger;
+   color:rgba(255, 11, 121, 0.717);
+}
