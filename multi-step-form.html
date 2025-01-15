@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="form">
+        <div id="steps">
+          <ol type="1">
+            <li>Step 1</li>
+                <p>YOUR INFO</p>
+                <br >
+                 </br>
+            <li>Step 2</li>
+                <p>SELECT PLAN</p>
+                <br >
+                 </br>
+            <li>Step 3</li>
+                <p>ADD-ONS</p>
+                <br>
+                 </br>
+            <li>Step 4</li>
+                <p>SUMMARY</p>
+          </ol>
+
+        </div>
+     <div id="info">
+        <h1>Personal info</h1>
+        <h3 style="color: rgb(3, 63, 43);">Please provide your name,email address and phone number</h3>
+        <br></br>
+        <div>
+        <form action="index.php" method="post">
+            <label for="username">Name:</label>
+            <input type="text" id="username" required placeholder="eg.John">
+            <br></br>
+            <label for="useremail">E-mail:</label>
+            <input type="email" id="useremail" required placeholder="eg.easy@gmail.com">
+            <br></br>
+            <label for="contactno.">Phone number:</label>
+            <input type="number" id="contactno." required placeholder="eg.24295845" max="10" style="margin-bottom:50px">
+            <br></br>
+            <label for="submit" id="one">Submit:</label>
+            <input type="submit" id="submit" >
+        </form>
+        <button>Next Step</button>
+      </div>
+    </div>
+    
+</body>
+</html>
