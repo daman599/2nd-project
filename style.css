@@ -11,7 +11,7 @@
     height:650px;
     width:200px;
     border-radius: 25px;
-    background-color:rgb(106, 146, 220);
+    background-color:rgb(70, 173, 187);
     float:left;
 
 }
@@ -31,5 +31,5 @@ button{
 }
 .points:hover{
    font-size: larger;
-   color:rgba(255, 11, 121, 0.717);
+   color:rgba(123, 1, 56, 0.717);
 }
