@@ -13,7 +13,6 @@
     border-radius: 25px;
     background-color:rgb(70, 173, 187);
     float:left;
-
 }
 #info{
    margin-left:10px;
@@ -30,6 +29,6 @@ button{
     font-weight: bold ;
 }
 .points:hover{
-   font-size: larger;
+   font-size: 20px;
    color:rgba(123, 1, 56, 0.717);
 }
